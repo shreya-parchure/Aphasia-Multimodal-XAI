@@ -1,4 +1,3 @@
-# Aphasia-Multimodal-XAI
 # Code associated with Paper: *Predicting Chronic Post-Stroke Aphasia Speech Performance From Clinically Accessible Multimodal Data Using Machine Learning*
 
 **Authors & Affiliations:**  
@@ -13,16 +12,15 @@ The ability to predict language performance in persons with aphasia (PWA) follow
 
 ## Table of Contents
 
-- [Paper Information](#paper-information)
+- [Paper Information](##paper-information)
 - [Data and Availability](#data-and-availability)
-  - [Primary Datasets]
-  - [Trained Models and Saved Code Outputs]
+  - [Primary Datasets](#primary-datasets)
+  - [Trained Models and Saved Code Outputs](#trained-models-and-saved-code-outputs)
 - [Notebooks Overview](#notebooks-overview)
-  - [Notebook 1: Model Training and Comparison of Multimodal Inputs](#notebook-1-ml-model-comparisons)
+  - [Notebook 1: Model Training and Comparison of Multimodal Inputs](#notebook-1-model-training-and-comparison-of-multimodal-inputs)
   - [Notebook 2: Feature Explainability](#notebook-2-feature-explainability)
   - [Notebook 3: Prospective Generalization Testing](#notebook-3-prospective-generalization-testing)
-- [License](#license)
-- [Contact](#contact)
+- [Contact](##contact)
 
 ---
 

@@ -12,7 +12,7 @@ The ability to predict language performance in persons with aphasia (PWA) follow
 
 ## Table of Contents
 
-- [Paper Information](##paper-information)
+- [Paper Information](#paper-information)
 - [Data and Availability](#data-and-availability)
   - [Primary Datasets](#primary-datasets)
   - [Trained Models and Saved Code Outputs](#trained-models-and-saved-code-outputs)
@@ -20,7 +20,7 @@ The ability to predict language performance in persons with aphasia (PWA) follow
   - [Notebook 1: Model Training and Comparison of Multimodal Inputs](#notebook-1-model-training-and-comparison-of-multimodal-inputs)
   - [Notebook 2: Feature Explainability](#notebook-2-feature-explainability)
   - [Notebook 3: Prospective Generalization Testing](#notebook-3-prospective-generalization-testing)
-- [Contact](##contact)
+- [Contact](#contact)
 
 ---
 

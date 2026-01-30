@@ -58,13 +58,21 @@ This repository includes folders that correspond to different steps of the resea
   This notebook access to 3 primary datasets as specified in the [Data and Availability](#data-and-availability) section.
 
 - **Function Dependencies:**
+  
   `load_datasets.py`
+  
   `generate_X.py`
+  
   `generate_y.p`
+  
   `train_models.py`
+  
   `plot_ROC.py`
+  
   `plot_bootstrap_metrics.py`
+  
   `plot_shap.py`
+  
 
 - **File**  
   `TMSA Training RF Models.ipynb`
@@ -91,13 +99,18 @@ This repository includes folders that correspond to different steps of the resea
   This notebook access to 3 primary datasets as specified in the [Data and Availability](#data-and-availability) section, the 3 unseen datasets, and lastly the pre-trained models
 
 - **Function Dependencies:**
+  
   `load_datasets.py`
+  
   `process_dataset.py`
+  
   `plot_ROC.py`
+  
   `by_card_by_person.py`
+  
 
 - **File**  
-  Baseline Aphasia Generalization.ipynb
+  `Baseline Aphasia Generalization.ipynb`
 
 - **Output**
   
@@ -115,16 +128,24 @@ This repository includes folders that correspond to different steps of the resea
   This notebook access to 3 primary datasets as specified in the [Data and Availability](#data-and-availability) section as well as the full pre-trained models
 
 - **Function Dependencies:**
+  
   `load_datasets.py`
+  
   `process_dataset.py`
+  
   `generate_y.py`
+  
   `train_models.py`
+  
   `plot_ROC.py`
+  
   `plot_bootstrap_metrics.py`
+  
   `plot_shap.py`
+  
 
 - **File**  
-  simple_app.ipynb
+  `simple_app.ipynb`
   
 - **Output**
 - 

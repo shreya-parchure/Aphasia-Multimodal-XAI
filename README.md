@@ -1,7 +1,7 @@
 # Code associated with Paper: *Predicting Chronic Post-Stroke Aphasia Speech Performance From Clinically Accessible Multimodal Data Using Machine Learning*
 
 **Authors & Affiliations:**  
-Shreya Parchure, Apoorva Kelkar, Leslie Vnenchak, Olufunsho Faseyitan, John Medaglia, Denise Y. Harvey, H. Branch Coslett, Roy H. Hamilton
+Shreya Parchure, Arnav Gupta, Apoorva Kelkar, Leslie Vnenchak, Olufunsho Faseyitan, John Medaglia, Denise Y. Harvey, H. Branch Coslett, Roy H. Hamilton
 
 Laboratory for Cognition and Neural Stimulation, University of Pennsylvania
 

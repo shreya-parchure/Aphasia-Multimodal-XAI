@@ -19,20 +19,13 @@ The ability to predict language performance in persons with aphasia (PWA) follow
 - [Notebooks Overview](#notebooks-overview)
   - [Result 1 & 2](result-1-&-2)
   - [Result 3](result-3)
-  - [Result 4](results-4)
+  - [Result 4](result-4)
   - [Notebook 1: Model Training and Comparison of Multimodal Inputs](#notebook-1-model-training-and-comparison-of-multimodal-inputs)
   - [Notebook 2: Feature Explainability](#notebook-2-feature-explainability)
   - [Notebook 3: Prospective Generalization Testing](#notebook-3-prospective-generalization-testing)
 - [Contact](#contact)
 
 ---
-### Notebook 2: Feature Explainability
-
-- [Comparing different multidmodel featrues for random forest classifiers + Feature Explainability (Result 1 & 2)](#comparing-different-multimodel-features-for-random-forest-classifiers-+-feature-explainability-(result-1-&-2))
-### [Comparing different mutlimodal features for random forest classifiers + Feature Explainability (Result 1 & 2)]
-
-
-
 ## Paper Information
 
 This repository contains the code associated with the paper *"Predicting Chronic Post-Stroke Aphasia Speech Performance From Clinically Accessible Multimodal Data Using Machine Learning"*. A link to the full paper will be made available after publication.
@@ -59,7 +52,7 @@ This repository includes folders that correspond to different steps of the resea
 
 ---
 
-### Result 1 & 2
+### Result 1
 
 - **Function:**
   Random forest classifiers were trained using different combinations of the 3 input feature sets and multimodal combinations. Their performance metrics were evaluated and compared to identify the best models. Feature importances were calculated for each of the models using SHAP.

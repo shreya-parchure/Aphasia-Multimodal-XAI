@@ -52,7 +52,7 @@ This repository includes folders that correspond to different steps of the resea
 
 ---
 
-### Result 1
+### Result 1 & 2
 
 - **Function:**
   Random forest classifiers were trained using different combinations of the 3 input feature sets and multimodal combinations. Their performance metrics were evaluated and compared to identify the best models. Feature importances were calculated for each of the models using SHAP.

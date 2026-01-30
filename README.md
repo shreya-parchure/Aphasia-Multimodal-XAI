@@ -58,10 +58,10 @@ This repository includes folders that correspond to different steps of the resea
   This notebook access to 3 primary datasets as specified in the [Data and Availability](#data-and-availability) section.
 
 - **Function Dependencies:**
-  load_datasets.py
-  generate_X.py
-  generate_y.py
-  train_models.py
+  `load_datasets.py`
+  `generate_X.py`
+  `generate_y.p`
+  `train_models.py`
   plot_ROC.py
   plot_bootstrap_metrics.py
   plot_shap.py

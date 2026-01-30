@@ -62,19 +62,25 @@ This repository includes folders that correspond to different steps of the resea
   `generate_X.py`
   `generate_y.p`
   `train_models.py`
-  plot_ROC.py
-  plot_bootstrap_metrics.py
-  plot_shap.py
+  `plot_ROC.py`
+  `plot_bootstrap_metrics.py`
+  `plot_shap.py`
 
 - **File**  
-  TMSA Training RF Models.ipynb
+  `TMSA Training RF Models.ipynb`
 
 - **Output**
+  
   ROC Plots
+  
   Bootstrap Plot
+  
   Bootstrap Excel Output
+  
   Shap Plots
+  
   *_best_model.joblib
+  
 
 ### Generalizability test using the best models (Result 3)
 
@@ -85,17 +91,20 @@ This repository includes folders that correspond to different steps of the resea
   This notebook access to 3 primary datasets as specified in the [Data and Availability](#data-and-availability) section, the 3 unseen datasets, and lastly the pre-trained models
 
 - **Function Dependencies:**
-  load_datasets.py
-  process_dataset.py
-  plot_ROC.py
-  by_card_by_person.py
+  `load_datasets.py`
+  `process_dataset.py`
+  `plot_ROC.py`
+  `by_card_by_person.py`
 
 - **File**  
   Baseline Aphasia Generalization.ipynb
 
 - **Output**
+  
   ROC Plots
+  
   By Person/By Card Excel Output
+  
 
 ### Creation of a simplified clinically accessible model + Prospective Generalizability testing (Result 4)
 
@@ -106,23 +115,29 @@ This repository includes folders that correspond to different steps of the resea
   This notebook access to 3 primary datasets as specified in the [Data and Availability](#data-and-availability) section as well as the full pre-trained models
 
 - **Function Dependencies:**
-  load_datasets.py
-  process_dataset.py
-  generate_y.py
-  train_models.py
-  plot_ROC.py
-  plot_bootstrap_metrics.py
-  plot_shap.py
+  `load_datasets.py`
+  `process_dataset.py`
+  `generate_y.py`
+  `train_models.py`
+  `plot_ROC.py`
+  `plot_bootstrap_metrics.py`
+  `plot_shap.py`
 
 - **File**  
   simple_app.ipynb
   
 - **Output**
+- 
   ROC Plots
+  
   Bootstrap Plot
+  
   Bootstrap Excel Output
+  
   Shap Plots
+  
   *_simple_best_model.joblib
+  
 
 
 ### Link to AphasiaLENS app repo

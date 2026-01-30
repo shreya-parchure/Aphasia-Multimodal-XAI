@@ -57,6 +57,7 @@ This repository includes folders that correspond to different steps of the resea
 
 ### Network strength calculations (Pre-processing)
 
+---
 
 ### Result 1 & 2
 
@@ -97,7 +98,8 @@ This repository includes folders that correspond to different steps of the resea
   Shap Plots
   
   *_best_model.joblib
-  
+
+---
 
 ### Result 3
 
@@ -126,7 +128,8 @@ This repository includes folders that correspond to different steps of the resea
   ROC Plots
   
   By Person/By Card Excel Output
-  
+
+---
 
 ### Result 4
 

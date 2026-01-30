@@ -33,22 +33,38 @@ This repository contains the code associated with the paper *"Predicting Chronic
 ## Data and Availability
 
 ### Primary Datasets
-The experiments in this paper use input data sourced from intake information of a clinical trial (NCT03651700). De-identified data used to conduct analyses is included in supplemental information of the paper and will be made available here after publication. Neuroimaging files will be available upon written request only, due to privacy reasons. There were 3 types of input data:
+The experiments in this paper use input data sourced from intake information of a clinical trial (NCT03651700). De-identified data used to conduct analyses is included in supplemental information of the paper and will be made available here after publication. Neuroimaging files and patient testing data will be available upon written request only, due to privacy reasons. There were 3 types of input data:
 
-- Linguistic Task Difficulties
+- Linguistic Difficulties for each word from naturalistic spoken English corpora
 - Clinical Information related to standardized aphasia testing, stroke severity, and person with aphasia (PWA) demographics
 - Network Node strengths computed from DWI MRI volume weighted streamlines, including 83 cortical regions according to Lausanne atlas
 
-### Trained Models and Saved Code Outputs
-After publication of the paper, we will also share the best models with fully trained weights. These models can be used directly to further predict from novel data, or can be used with interim checkpoints in code without need to re-train from the start.
 
 ---
 
 ## Code Overview
 
-This repository includes three main code scripts that correspond to different steps of the research.
+This repository includes folders that correspond to different steps of the research. Each folder contains dependencies for running it as well as a script running final analysis, and a demo notebook.
 
-### Notebook 1: Model Training and Comparison of Multimodal Inputs
+### Network strength calculations (Pre-processing)
+
+
+### Comparing different mutlimodal features for random forest classifiers + Feature Explainability (Result 1 & 2)
+
+
+### Generalizability test using the best models (Result 3)
+
+### Creation of a simplified clinically accessible model + Prospective Generalizability testing (Result 4)
+
+
+
+### Link to AphasiaLENS app repo
+
+
+### Comparing different types of models (Supplemental)
+
+
+### Move Demo Notebooks: 1: Model Training and Comparison of Multimodal Inputs
 
 - **Function:**  
  Random forest classifiers were trained using different combinations of the 3 input feature sets and multimodal combinations. Their performance metrics were evaluated and compared to identify the best models.

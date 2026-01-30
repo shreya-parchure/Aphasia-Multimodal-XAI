@@ -17,7 +17,9 @@ The ability to predict language performance in persons with aphasia (PWA) follow
   - [Primary Datasets](#primary-datasets)
   - [Trained Models and Saved Code Outputs](#trained-models-and-saved-code-outputs)
 - [Notebooks Overview](#notebooks-overview)
-
+  - [Result 1 & 2](result-1-&-2)
+  - [Result 3](result-3)
+  - [Result 4](results-4)
   - [Notebook 1: Model Training and Comparison of Multimodal Inputs](#notebook-1-model-training-and-comparison-of-multimodal-inputs)
   - [Notebook 2: Feature Explainability](#notebook-2-feature-explainability)
   - [Notebook 3: Prospective Generalization Testing](#notebook-3-prospective-generalization-testing)
@@ -56,7 +58,7 @@ This repository includes folders that correspond to different steps of the resea
 ### Network strength calculations (Pre-processing)
 
 
-### Comparing different mutlimodal features for random forest classifiers + Feature Explainability (Result 1 & 2)
+### Result 1 & 2
 
 - **Function:**
   Random forest classifiers were trained using different combinations of the 3 input feature sets and multimodal combinations. Their performance metrics were evaluated and compared to identify the best models. Feature importances were calculated for each of the models using SHAP.
@@ -97,7 +99,7 @@ This repository includes folders that correspond to different steps of the resea
   *_best_model.joblib
   
 
-### Generalizability test using the best models (Result 3)
+### Result 3
 
 - **Function:**
   Tested the eneralization ability of the best classifiers. It tests the models on a prospective, out-of-sample dataset to verify their robustness and practical applicability under real-world conditions.
@@ -126,7 +128,7 @@ This repository includes folders that correspond to different steps of the resea
   By Person/By Card Excel Output
   
 
-### Creation of a simplified clinically accessible model + Prospective Generalizability testing (Result 4)
+### Result 4
 
 - **Function:**
   Random forest classifiers were trained using different combinations of the 3 input feature sets and multimodal combinations with less overall features to be used in a clinical setting. Their performance metrics were evaluated and compared to the original full_models to ensure that performance loss was within reason.

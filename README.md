@@ -24,6 +24,12 @@ The ability to predict language performance in persons with aphasia (PWA) follow
 - [Contact](#contact)
 
 ---
+### Notebook 2: Feature Explainability
+
+- [Comparing different multidmodel featrues for random forest classifiers + Feature Explainability (Result 1 & 2)](#comparing-different-multimodel-features-for-random-forest-classifiers-+-feature-explainability-(result-1-&-2))
+### [Comparing different mutlimodal features for random forest classifiers + Feature Explainability (Result 1 & 2)]
+
+
 
 ## Paper Information
 

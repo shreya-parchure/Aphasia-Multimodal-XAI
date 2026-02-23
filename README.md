@@ -15,15 +15,16 @@ The ability to predict language performance in persons with aphasia (PWA) follow
 - [Paper Information](#paper-information)
 - [Data and Availability](#data-and-availability)
   - [Primary Datasets](#primary-datasets)
-  - [Trained Models and Saved Code Outputs](#trained-models-and-saved-code-outputs)
-- [Notebooks Overview](#notebooks-overview)
-  - [Result 1 & 2](result-1-&-2)
-  - [Result 3](result-3)
-  - [Result 4](result-4)
-  - [Notebook 1: Model Training and Comparison of Multimodal Inputs](#notebook-1-model-training-and-comparison-of-multimodal-inputs)
-  - [Notebook 2: Feature Explainability](#notebook-2-feature-explainability)
-  - [Notebook 3: Prospective Generalization Testing](#notebook-3-prospective-generalization-testing)
+- [Code Overview](#code-overview)
+  - [Network strength calculations (Pre-processing)](#network-strength-calculations-pre-processing)
+  - [Result 1 & 2](#result-1--2)
+  - [Result 3](#result-3)
+  - [Result 4](#result-4)
+  - [Link to AphasiaLENS app repo](#link-to-aphasialens-app-repo)
+  - [Comparing different types of models (Supplemental)](#comparing-different-types-of-models-supplemental)
+  - [Demo Notebooks](#demo-notebooks)
 - [Contact](#contact)
+
 
 ---
 ## Paper Information
@@ -167,12 +168,14 @@ This repository includes folders that correspond to different steps of the resea
 
 
 ### Link to AphasiaLENS app repo
-
+Check out the [AphasiaLENS app](https://aphasialens.streamlit.app)
+and its [Github repo](https://github.com/shreya-parchure/AphasiaLENS)
 
 ### Comparing different types of models (Supplemental)
 
 
-### Move Demo Notebooks: 1: Model Training and Comparison of Multimodal Inputs
+### Demo Notebooks
+Notebook 1: Model Training and Comparison of Multimodal Inputs
 
 - **Function:**  
  Random forest classifiers were trained using different combinations of the 3 input feature sets and multimodal combinations. Their performance metrics were evaluated and compared to identify the best models.
@@ -185,7 +188,7 @@ This repository includes folders that correspond to different steps of the resea
 
 ---
 
-### Notebook 2: Feature Explainability
+Notebook 2: Feature Explainability
 
 - **Function:**  
   This notebook is focused on the explainability of the features used by the best machine learning models. It employs SHAP (Shapley Additive Explanations) to interpret the contribution of different features toward model predictions.
@@ -198,7 +201,7 @@ This repository includes folders that correspond to different steps of the resea
 
 ---
 
-### Notebook 3: Prospective Generalization Testing
+Notebook 3: Prospective Generalization Testing
 
 - **Function:**  
   The third notebook is designed to evaluate the generalization ability of the best classifiers. It tests the models on a prospective, out-of-sample dataset to verify their robustness and practical applicability under real-world conditions.
